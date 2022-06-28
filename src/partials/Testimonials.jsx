@@ -9,10 +9,10 @@ function Testimonials() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="h2 mb-4">We want to know what you need</h2>
+            <h2 className="h2 mb-4">Contact Us</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Find something annoying with grocery shopping? Wish there was an
-              app for it? Send
+              Interested in the product? Do you have suggestions? Want to
+              contact our team? Feel free to send us a message.
             </p>
           </div>
           {/* Testimonials */}
