@@ -12,7 +12,7 @@ function Testimonials() {
             <h2 className="h2 mb-4">Contact Us</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
               Interested in the product? Do you have suggestions? Want to
-              contact our team? Feel free to send us a message.
+              contact our team? Feel free to send us a message below.
             </p>
           </div>
           {/* Testimonials */}
