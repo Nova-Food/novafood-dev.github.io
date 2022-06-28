@@ -1,7 +1,7 @@
 {
   "name": "simple-light-react",
   "version": "0.1.0",
-  "homepage": "www.novafood.io",
+  "homepage": "https://novafood-dev.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
