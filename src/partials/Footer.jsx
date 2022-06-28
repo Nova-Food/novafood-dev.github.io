@@ -10,7 +10,7 @@ function Footer() {
         <div className="py-4 md:py-8 border-t border-gray-200">
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4 text-center">
-            © Copyright © 2022 -{" "}
+            Copyright © 2022 -{" "}
             <a
               className="text-blue-600 hover:underline"
               href="https://novafood.io"
