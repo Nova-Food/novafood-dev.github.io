@@ -1,0 +1,41 @@
+/*======= Simple Icon Box =======*/
+.simple-icon-boxes {
+    .icon {
+        margin-bottom: 20px;
+        font-size: 40px;
+        color: $color-primary;
+        line-height: 0.5;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 1.15;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+/*======= Icon Box =======*/
+.icon-box {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+
+    .icon {
+        color: $color-primary-7;
+        margin-right: 15px;
+        font-size: 50px;
+        line-height: 0.5;
+    }
+
+    h5 {
+        font-size: 35px;
+        letter-spacing: -0.2px;
+    }
+
+    span {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,30 @@
+/*======= Post Pagination =======*/
+.shop-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .page-link {
+        border: 1px solid $color-offwhite;
+        color: $color-heading;
+        border-radius: 5px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            color: white;
+            background: $color-secondary;
+            border-color: $color-secondary;
+        }
+    }
+    .active {
+        .page-link {
+            background: $color-secondary;
+            border-color: $color-secondary;
+        }
+    }
+}

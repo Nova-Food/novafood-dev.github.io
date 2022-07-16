@@ -1,0 +1,130 @@
+/*======= Products =======*/
+.shop-shorter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .sort-text {
+        font-size: 18px;
+        margin-right: auto;
+        font-family: $font-cs-medium;
+    }
+    .products-dropdown {
+        margin-top: 10px;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        .nice-select {
+            height: 50px;
+            padding-right: 60px;
+            color: $color-heading;
+            background: transparent;
+            border: 1px solid #e8e8e8;
+            .list {
+                width: auto;
+            }
+        }
+    }
+    .grid-list {
+        display: flex;
+        align-items: center;
+        li {
+            a {
+                color: $color-heading;
+            }
+            &:not(last-child) {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.product-item {
+    position: relative;
+    text-align: center;
+    padding: 35px 30px;
+    background: #fafafa;
+    margin-bottom: 30px;
+    .badge {
+        top: 15px;
+        right: 15px;
+        color: white;
+        padding: 6px 15px;
+        position: absolute;
+        text-transform: uppercase;
+        background: $color-secondary;
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+        background: white;
+        position: relative;
+        border-radius: 50%;
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        img {
+            max-width: 165px;
+        }
+        .cart-btn {
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            transition: 0.5s;
+            background: white;
+            padding: 5px 18px;
+            border-radius: 3px;
+            width: max-content;
+            position: absolute;
+            color: $color-heading;
+            transform: translate(-50%, -50%);
+        }
+        &:before {
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: 0.5s;
+            border-radius: 50%;
+            background: $color-secondary;
+        }
+    }
+    h6 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .ratting {
+        i {
+            font-size: 12px;
+            margin-right: 2px;
+            color: $color-secondary;
+        }
+    }
+    .price {
+        font-size: 16px;
+        del,
+        span {
+            &:before {
+                content: '$';
+            }
+        }
+        span {
+            font-weight: 600;
+            color: $color-secondary;
+            &:not(first-child) {
+                margin-left: 10px;
+            }
+        }
+    }
+    &:hover {
+        .image {
+            .cart-btn {
+                opacity: 1;
+            }
+            &:before {
+                opacity: 0.85;
+            }
+        }
+    }
+}

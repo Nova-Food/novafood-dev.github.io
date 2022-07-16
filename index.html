@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.c9396f6a.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Nova Food</title>
+    <title>Nova Food - Your Grocery Companion</title>
     <meta name="title" content="Nova Food" />
     <meta
       name="description"
@@ -52,29 +51,452 @@
 
       gtag("config", "G-8VXMNJKXDW");
     </script>
-    <script type="module" crossorigin src="/assets/index.20eca65d.js"></script>
-    <link rel="modulepreload" href="/assets/vendor.94da8910.js">
-    <link rel="stylesheet" href="/assets/index.8a723d51.css">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="img/png" />
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--====== Slick Slider ======-->
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!--====== Magnific ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!--====== Jquery UI CSS ======-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css" />
+    <!--====== Flaticon ======-->
+    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css" />
+    <!--====== Spacing Css ======-->
+    <link rel="stylesheet" href="assets/css/spacing.min.css" />
+    <!--====== Main Css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--====== Responsive CSS ======-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
 
-  <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
-    
-    <!-- particles.js container -->
+  <body>
+    <!--====== Start Header ======-->
+    <header
+      class="template-header navbar-right absolute-header nav-primary-3 submenu-primary-3 sticky-header"
+    >
+      <div class="container-fluid container-1430">
+        <div class="header-inner">
+          <div class="header-left">
+            <div class="branding-and-language-selection">
+              <!-- <div class="brand-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo-2.png" alt="Nova Food Logo" />
+                </a>
+              </div> -->
+            </div>
+          </div>
+          <div class="header-right">
+            <nav class="nav-menu d-none d-xl-block p-r-30">
+              <ul>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="about">About</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
 
-    <div id="particles-js"></div>
+      <!-- Start Mobile Slide Menu -->
+      <div class="mobile-slide-panel">
+        <div class="panel-overlay"></div>
+        <div class="panel-inner">
+          <div class="mobile-logo">
+            <a href="index.html">
+              <img src="assets/img/logo-1.png" alt="Nova Food Logo" />
+            </a>
+          </div>
+          <nav class="mobile-menu">
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
 
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script>
-      if (localStorage.getItem("sidebar-expanded") == "true") {
-        document.querySelector("body").classList.add("sidebar-expanded");
-      } else {
-        document.querySelector("body").classList.remove("sidebar-expanded");
-      }
-    </script>
+              <li>
+                <a href="team.html">Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="panel-close">
+            <i class="fal fa-times"></i>
+          </a>
+        </div>
+      </div>
+      <!-- End Mobile Slide Menu -->
+    </header>
+    <!--====== End Header ======-->
 
-    <div id="root"></div>
-    
+    <!--====== Start Hero Area ======-->
+    <section class="hero-area-v4">
+      <div class="container">
+        <div class="row align-items-end justify-content-center">
+          <div class="col-lg-6">
+            <div class="hero-content wow fadeInUp" data-wow-delay="0.4s">
+              <h1 class="text-center hero-title">NOVA FOOD</h1>
+              <div class="text-center">
+                <span class="tagline"
+                  >Your Grocery Companion - Coming Soon</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="hero-preview-galley wow fadeInUp" data-wow-delay="0.4s">
+              <img
+                src="assets/img/hero/scan-hero.png"
+                class="image-1"
+                alt="Nova Food Phone Scan Drawing"
+              />
+              <img
+                src="assets/img/hero/earth.png"
+                class="image-2 animate-float-bob-y"
+              />
+              <img
+                src="assets/img/hero/piggy-bank.png"
+                class="image-3 animate-float-bob-y"
+              />
+
+              <img
+                src="assets/img/hero/food basket.png"
+                class="image-4 animate-float-bob-y"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== End Hero Area ======-->
+
+    <!--====== Collaboration Area Start ======-->
+    <section class="collaboration-section overflow-hidden">
+      <div class="container">
+        <div
+          class="row justify-content-lg-between justify-content-center align-items-center p-b-60 p-t-60"
+        >
+          <div class="col-lg-2 col-md-9 col-sm-10">
+            <div class="preview-galley-v4 m-r-70 m-b-md-80">
+              <img
+                src="assets/img/preview-gallery/Scan.webp"
+                class="preview-image-3"
+                alt="Nova Food Scanner"
+              />
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-10">
+            <div class="collaboration-text p-l-30 p-l-md-0">
+              <div class="common-heading title-line-bottom m-b-40">
+                <span class="tagline">Step 1</span>
+                <h2 class="title">Receipt Scanner ​​</h2>
+              </div>
+              <p class="m-b-15">
+                Scan your grocery bill by simply taking a picture with our app.
+                Nova Food will detect the store, grocery items and prices to
+                help you understand more about your food choices.
+              </p>
+              <p>
+                As you scan more grocery bills, the insights calculated by our
+                algorithm will be more accurate and meaningful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Collaboration Area End ======-->
+
+    <!--====== Design Feature Area Start ======-->
+    <section class="design-feature-area bg-soft-grey-color overflow-hidden">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center p-b-60 p-t-60"
+        >
+          <div class="col-lg-4 col-md-9 col-sm-10">
+            <div class="preview-galley-v4 m-r-70 m-b-md-80">
+              <img
+                src="assets/img/preview-gallery/Insights.webp"
+                alt="Nova Food Insights"
+                class="preview-image-3"
+              />
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-5 col-md-9 col-sm-11 order-lg-first">
+            <div class="collaboration-text p-l-30 p-l-md-0">
+              <div class="common-heading title-line-bottom m-b-40">
+                <span class="tagline">Step 2</span>
+                <h2 class="title">Select a Category​</h2>
+              </div>
+
+              <p>
+                <b>My Budget</b>
+              </p>
+              <p class="m-b-15">
+                Learn about your spending habits and where you can save money.
+              </p>
+
+              <p>
+                <b>Food</b>
+              </p>
+              <p class="m-b-15">
+                See your favorite snacks, your food balance or how much
+                processed food you eat.
+              </p>
+
+              <p>
+                <b>Environmental Impact</b>
+              </p>
+              <p class="m-b-15">
+                Discover how much water is consumed and carbon dioxide is
+                produced to make some of your favorite foods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Design Feature Area End ======-->
+
+    <!--====== Start Features Area ======-->
+    <section class="feature-section p-t-130 p-b-80">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="common-heading title-line-bottom text-center m-b-70">
+              <span class="tagline">Checkout These Other Features</span>
+              <h2 class="title">More Than a Scanner</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row iconic-boxes-v2 justify-content-center">
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="iconic-box color-1 m-b-50">
+              <div class="icon">
+                <img
+                  src="assets/img/icon/recipe-book.png"
+                  alt="recipe book icon"
+                />
+              </div>
+              <h5 class="title"><a href="#">Recipe Recommendations</a></h5>
+              <p>Get recipe suggestions based on your recent groceries</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="iconic-box color-1 m-b-50">
+              <div class="icon">
+                <img src="assets/img/icon/clipboard.png" alt="clipboard icon" />
+              </div>
+              <h5 class="title"><a href="#">Grocery List</a></h5>
+              <p>
+                Write down what your need so that you have a digital list to use
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="iconic-box color-1 m-b-50">
+              <div class="icon">
+                <img
+                  src="assets/img/icon/conversation.png"
+                  alt="conversation icon"
+                />
+              </div>
+              <h5 class="title"><a href="#">Dietary Consultation</a></h5>
+              <p>Request professional dietary consultation inside our app</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== End Features Area ======-->
+
+    <!--====== Service Section Start ======-->
+    <section
+      class="service-section bg-cover-center bg-soft-grey-color p-t-130 p-b-130"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8">
+            <div class="common-heading title-line-bottom text-center m-b-20">
+              <span class="tagline">Climate Change</span>
+              <h2 class="title">Our Vision</h2>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-12">
+            <div class="row fancy-icon-boxes-v2 bg-white">
+              <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="fancy-icon-box color-2">
+                  <div class="box-icon">
+                    <img
+                      src="assets/img/icon/planet-earth.png"
+                      class="image-2"
+                      alt="platnet earth icon"
+                    />
+                  </div>
+                  <div class="box-content">
+                    <h4 class="title">
+                      <a href="#">Food Choices and the Environment</a>
+                    </h4>
+                    <p>
+                      As we approach the "point of no return" for climate
+                      change, it is important to act now. We believe in helping
+                      people make changes by facilitating their access to
+                      information on how their food choices affect the
+                      environment.
+                    </p>
+                    <p class="m-b-20">
+                      Nova Food's environmetal impact category highlights the
+                      most pollutant foods on your groceries to help you
+                      understand how you can make a change to help combat
+                      Climate Change.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== Service Section End ======-->
+
+    <!--====== Newsletter Area Start ======-->
+    <section
+      class="newsletter-area bg-cover-center bg-soft-grey-color p-t-130 p-b-130"
+      style="background-image: url(assets/img/particle/newsletter-bg.png)"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-10 col-md-11">
+            <div class="newsletter-text">
+              <div class="common-heading text-center m-b-40 p-0 px-lg-5">
+                <span class="tagline">Stay Tuned</span>
+                <h2 class="title">Subscribe</h2>
+              </div>
+
+              <form
+                id="sib-form"
+                method="POST"
+                data-type="subscription"
+                action="https://4fdb9ebd.sibforms.com/serve/MUIEANM-hZZlk34sCCVusKzp8E1mf1NOt5xj_UDGqwaPMcwzIru8WfKRS_yLT_CBK6GVVzL-5b7xYp2PEZ9F9xdN2JZKndvQJdY79WnLsIzd0ZdHjddnibnSVZX9jgtg_iDFDI5R8L3pIaUfR-xIR0bk89NhFGNz9cMZUCL_-PQNOLJtstgbR7h316wc2hKgBC5hTyd4AHkd35xb"
+                class="newsletter-form form-two"
+              >
+                <div class="input-field">
+                  <input
+                    type="email"
+                    id="EMAIL"
+                    name="EMAIL"
+                    data-required="true"
+                    required
+                    placeholder="Enter Your Email Address"
+                  />
+                  <button
+                    form="sib-form"
+                    type="submit"
+                    class="template-btn template-btn-2 primary-bg-3"
+                  >
+                    Subscribe Now <i class="far fa-arrow-right"></i>
+                  </button>
+                </div>
+
+                <p class="text-center m-t-25">
+                  Demos, Release Dates, Customer Interviews, Promotions and
+                  more!
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter-particle-effect d-none d-md-block">
+        <img
+          class="particle-1 animate-float-bob-y"
+          src="assets/img/particle/particle-2.png"
+          alt="particle Two"
+        />
+        <img
+          class="particle-2 animate-zoominout"
+          src="assets/img/particle/particle-3.png"
+          alt="particle Three"
+        />
+        <img
+          class="particle-3 animate-zoominout"
+          src="assets/img/particle/particle-4.png"
+          alt="particle Four"
+        />
+        <img
+          class="particle-4 animate-zoominout"
+          src="assets/img/particle/particle-5.png"
+          alt="particle Five"
+        />
+      </div>
+    </section>
+    <!--====== Newsletter Area End ======-->
+
+    <!--====== Start Scroll To Top ======-->
+    <a href="#" class="back-to-top" id="scroll-top">
+      <i class="far fa-angle-up"></i>
+    </a>
+    <!--====== End Scroll To Top ======-->
+
+    <!--====== Start Footer ======-->
+    <footer class="template-footer">
+      <div class="footer-copyright border-top-primary-3">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-sm-auto col-12">
+              <!-- <div class="copyright-logo text-center text-sm-left">
+                <img src="assets/img/logo-2.png" alt="Nova Food Logo" />
+              </div> -->
+            </div>
+            <div class="col-sm-auto col-12">
+              <p class="copyright-text text-center text-sm-right pt-4 pt-sm-0">
+                © 2022 <a href="#">Nova Food</a>. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--====== End Footer ======-->
+
+    <!--====== Jquery ======-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--====== Slick slider ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Magnific ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Isotope Js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Jquery UI Js ======-->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!--====== Inview ======-->
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Wow ======-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--====== Main JS ======-->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

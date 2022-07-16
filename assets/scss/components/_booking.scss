@@ -1,0 +1,81 @@
+/*======= Booking Form =======*/
+.booking-form {
+    background-color: $color-white;
+    box-shadow: 0px 10px 60px 0px rgba(232, 232, 232, 0.77);
+    padding: 30px;
+
+    .form-title {
+        font-size: 24px;
+        position: relative;
+        z-index: 1;
+        background-color: $color-primary-7;
+        color: $color-white;
+        letter-spacing: -0.3px;
+        line-height: 1;
+        padding: 18px 40px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: {
+                image: url(../img/booking-title-line.png);
+                size: cover;
+                position: center;
+            }
+            opacity: 0.1;
+        }
+    }
+
+    form {
+        padding: 40px;
+        background-color: #fdf5e2;
+
+        .input-field {
+            &:not(:last-child) {
+                margin-bottom: 25px;
+            }
+        }
+
+        input {
+            height: 55px;
+            background-color: $color-white;
+            font: {
+                size: 15px;
+                style: italic;
+            }
+            padding: 0px 25px;
+            transition: 0.3s;
+
+            &:focus {
+                color: $color-heading-5;
+            }
+        }
+
+        button {
+            height: 55px;
+            background-color: $color-heading-5;
+            color: $color-white;
+            text-transform: uppercase;
+            font: {
+                family: $font-cs-medium;
+                size: 14px;
+            }
+            border: none;
+            padding: 0px 30px;
+            transition: 0.3s;
+
+            i {
+                margin-left: 10px;
+            }
+
+            &:hover {
+                background-color: $color-primary-7;
+            }
+        }
+    }
+}

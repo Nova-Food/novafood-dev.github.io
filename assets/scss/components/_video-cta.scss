@@ -1,0 +1,124 @@
+/*======= Video Call To Action =======*/
+.video-cta {
+    .video-cta-text-block {
+        background-color: $color-primary-4;
+        padding: 60px 50px;
+        text-align: center;
+        color: $color-white;
+        border-radius: 7px;
+
+        .title {
+            font-size: 36px;
+            color: $color-white;
+            margin-bottom: 25px;
+        }
+
+        .template-btn {
+            margin-top: 25px;
+            padding: 14px 30px;
+
+            &:not(:hover) {
+                border-color: $color-white;
+            }
+        }
+    }
+
+    .landio-video {
+        min-height: 350px;
+        height: 100%;
+        border-radius: 7px;
+
+        .play-btn {
+            width: 75px;
+            height: 75px;
+            background-color: $color-primary-4;
+
+            &::before {
+                background-color: $color-primary-4;
+            }
+        }
+
+        &::after {
+            background-color: $color-secondary-4;
+            opacity: 0.5;
+        }
+
+    }
+}
+
+
+/* Home Ten CTA Video */
+.cta-part-h10 {
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+    padding: 55px 65px 60px;
+    @include respond-below(lg) {
+        margin-bottom: 30px;
+    }
+    @include respond-below(xs) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    &:before {
+        height: 100%;
+        content: '';
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        position: absolute;
+        background-image: linear-gradient( 45deg, rgba(107,52,250,0.87059) 0%, rgba(212,21,110,0.90196) 100%);
+    }
+    .sub-title {
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: white;
+        font-size: 42px;
+        margin-bottom: 35px;
+        @include respond-below(md) {
+            font-size: 35px;
+        }
+        @include respond-below(xs) {
+            font-size: 30px;
+        }
+    }
+}
+
+.video-part-h10 {
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    min-height: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    .play-btn {
+        height: 85px;
+        width: 85px;
+        color: white;
+        line-height: 70px;
+        text-align: center;
+        border-radius: 50%;
+        border: 7px solid;
+        background-image: linear-gradient( 45deg, rgb(107,52,250) 0%, rgb(212,21,110) 100%);
+    }
+    &:before {
+        height: 100%;
+        content: '';
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0.45;
+        background: black;
+        position: absolute;
+    }
+}

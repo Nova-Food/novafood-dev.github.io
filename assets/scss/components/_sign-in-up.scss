@@ -1,0 +1,90 @@
+/*======= Sign In & Sign Up =======*/
+.sign-in-up-wrapper {
+    text-align: center;
+
+    form {
+        box-shadow: 0px 10px 30px 0px rgba(225, 223, 255, 0.36);
+        border-radius: 5px;
+    }
+
+    .form-groups {
+        padding: 30px;
+    }
+
+    .form-note {
+        padding: 15px 30px;
+        border-top: 1px solid $color-offwhite;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .form-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .field-group {
+        position: relative;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        .icon {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 55px;
+            text-align: center;
+            font-size: 15px;
+            border-right: 1px solid $color-offwhite;
+            line-height: 30px;
+            color: $color-heading;
+        }
+
+        input {
+            padding-left: 75px;
+            height: 60px;
+            border: 1px solid transparent;
+            transition: 0.3s;
+            text-align: left;
+
+            &:focus {
+                border-color: $color-primary;
+                color: $color-heading;
+                background-color: transparent;
+            }
+        }
+
+        button {
+            width: 100%;
+            height: 55px;
+            border: none;
+            background-color: $color-primary;
+            color: $color-white;
+            font: {
+                family: $font-cs-bold;
+                size: 15px;
+                weight: 700;
+            }
+            transition: 0.3s;
+
+            &:hover {
+                background-color: $color-heading;
+            }
+        }
+    }
+
+    .forgot-password {
+        margin-top: 25px;
+        color: $color-heading;
+        font-family: $font-cs-medium;
+        font-size: 15px;
+        font-weight: 500;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}

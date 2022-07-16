@@ -1,0 +1,98 @@
+/*======= Programs  =======*/
+.programs-area {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        > div {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+.program-item {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    padding: 60px 50px 55px;
+    border: 1px solid #e5e5e5;
+    @include respond-below(xs) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .icon {
+        height: 90px;
+        transition: 0.5s;
+        margin-bottom: 30px;
+        @include respond-below(xs) {
+            height: auto;
+            img {
+                max-width: 55px;
+            }
+        }
+    }
+    h4 {
+        transition: 0.5s;
+        margin-bottom: 15px;
+    }
+    p {
+        transition: 0.5s;
+    }
+    .hover-bg {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: 0.5s;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        &:before {
+            height: 100%;
+            content: '';
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            background-image: linear-gradient( 45deg, rgba(107,52,250,0.87059) 0%, rgba(212,21,110,0.90196) 100%);
+        }
+    }
+    &:hover {
+        .icon {
+            filter: brightness(0) invert(1);
+        }
+        h4, p {
+            color: white;
+        }
+        .hover-bg {
+            opacity: 1;
+        }
+    }
+}
+
+.program-more {
+    padding-left: 50px;
+    h2 {
+        font-size: 42px;
+        margin-top: -10px;
+        margin-bottom: 22px;
+        @include respond-below(sm) {
+            font-size: 35px;
+        }
+    }
+    p {
+        margin-bottom: 25px;
+    }
+    @include respond-below(lg) {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    @include respond-below(md) {
+        padding: 50px 0 0;
+    }
+}
