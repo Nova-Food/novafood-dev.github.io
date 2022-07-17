@@ -1153,7 +1153,7 @@
     .hero-preview-galley {
       position: relative;
       z-index: 1;
-      height: 29rem;
+      height: 20rem;
       width: 100%;
 
       img {
@@ -1162,27 +1162,26 @@
         &.image-1 {
           position: absolute;
           top: 30px;
-          left: 30px;
         }
 
         &.image-2 {
           position: absolute;
-          height: 40%;
+          height: 35%;
           top: 230px;
-          right: 200px;
+          right: 230px;
         }
 
         &.image-3 {
           position: absolute;
-          height: 40%;
-          bottom: 320px;
-          right: 150px;
+          height: 35%;
+          bottom: 250px;
+          right: 180px;
         }
 
         &.image-4 {
           position: absolute;
-          height: 40%;
-          bottom: 200px;
+          height: 35%;
+          bottom: 160px;
           left: 280px;
         }
       }
