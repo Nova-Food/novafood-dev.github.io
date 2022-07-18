@@ -4161,49 +4161,15 @@ textarea {
 }
 
 /*======= Preview Gallery v4 =======*/
-.preview-galley-v4 {
-  position: relative;
-  z-index: 1;
-  width: 600px;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .preview-galley-v4 img {
-  border-radius: 15px;
-  position: relative;
-  z-index: 1;
-}
-.preview-galley-v4 img.preview-image-1 {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.preview-galley-v4 img.preview-image-2 {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .preview-galley-v4 img.preview-image-3 {
-  position: absolute;
-  width: 40%;
-  height: auto;
-  z-index: 1;
-  box-shadow: 0px 10px 30px 0px rgba(22, 22, 44, 0.18);
-}
-.preview-galley-v4 img.preview-image-4 {
-  position: absolute;
-  position: absolute;
-  right: 0;
-  bottom: 40px;
-  z-index: 1;
+  min-width: 5rem;
+  max-width: 15rem;
   box-shadow: 0px 10px 30px 0px rgba(22, 22, 44, 0.18);
 }
 
