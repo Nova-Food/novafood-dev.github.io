@@ -1031,7 +1031,6 @@ textarea {
   height: 0px;
   transform: translate(-50%, -50%);
   opacity: 0;
-  background: rgba(255, 255, 255, 0.2);
   border-radius: 7px;
 }
 .hover-overly-zoom:hover:before {
