@@ -2321,8 +2321,12 @@ textarea {
   padding-top: 260px;
   padding-bottom: 110px;
 }
+.hero-area-v4 .hero-content .tagline {
+  font-size: 20px;
+}
 .hero-area-v4 .hero-content .hero-title {
   font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1;
   margin-bottom: 45px;
 }
