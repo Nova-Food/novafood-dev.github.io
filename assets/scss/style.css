@@ -1031,7 +1031,6 @@ textarea {
   height: 0px;
   transform: translate(-50%, -50%);
   opacity: 0;
-  background: rgba(255, 255, 255, 0.2);
   border-radius: 7px;
 }
 .hover-overly-zoom:hover:before {
@@ -1833,7 +1832,6 @@ textarea {
 /*======= Preloader =======*/
 #preloader {
   position: fixed;
-  background-color: var(--color-heading);
   background-position: center center;
   background-repeat: no-repeat;
   top: 0;
@@ -2313,19 +2311,18 @@ textarea {
 /*======= Hero Area v4 =======*/
 .hero-area-v4 {
   background-color: #f0f6ff;
-  background-image: url(../img/hero/hero-curve-bg.png);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 52%;
   overflow: hidden;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .hero-area-v4 .hero-content {
   padding-top: 260px;
   padding-bottom: 110px;
 }
 .hero-area-v4 .hero-content .hero-title {
-  font-size: 90px;
+  font-size: 20px;
   line-height: 1;
   margin-bottom: 45px;
 }
@@ -2338,7 +2335,6 @@ textarea {
   content: "";
   right: 0;
   z-index: -1;
-  background-image: url(../img/particle/heading-line-2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
@@ -2396,47 +2392,34 @@ textarea {
 .hero-area-v4 .hero-preview-galley {
   position: relative;
   z-index: 1;
-  height: 700px;
+  height: 29rem;
   width: 100%;
 }
 .hero-area-v4 .hero-preview-galley img {
-  position: absolute;
   z-index: 1;
 }
-.hero-area-v4 .hero-preview-galley img.main-image-1 {
-  left: 0;
-  top: 0;
-}
-.hero-area-v4 .hero-preview-galley img.main-image-2 {
-  right: -250px;
-  bottom: 0;
-}
-.hero-area-v4 .hero-preview-galley .preview-inner {
+.hero-area-v4 .hero-preview-galley img.image-1 {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 2;
+  top: 100px;
+  left: 30px;
 }
-.hero-area-v4 .hero-preview-galley .preview-inner img {
-  border-radius: 15px;
+.hero-area-v4 .hero-preview-galley img.image-2 {
+  position: absolute;
+  height: 40%;
+  top: 260px;
+  right: 260px;
 }
-.hero-area-v4 .hero-preview-galley .preview-inner img.image-1 {
-  right: 20px;
-  top: 94px;
-  z-index: 2;
+.hero-area-v4 .hero-preview-galley img.image-3 {
+  position: absolute;
+  height: 40%;
+  bottom: 270px;
+  right: 150px;
 }
-.hero-area-v4 .hero-preview-galley .preview-inner img.image-2 {
-  right: 50px;
-  bottom: 160px;
-  z-index: 2;
-  box-shadow: 0 10px 30px 0px rgba(89, 89, 89, 0.0018);
-}
-.hero-area-v4 .hero-preview-galley .preview-inner img.image-3 {
-  right: 180px;
-  bottom: 105px;
-  box-shadow: 0 10px 30px 0px rgba(89, 89, 89, 0.001);
+.hero-area-v4 .hero-preview-galley img.image-4 {
+  position: absolute;
+  height: 40%;
+  bottom: 190px;
+  left: 300px;
 }
 
 /*======= Hero Area v5 =======*/
@@ -3670,7 +3653,11 @@ textarea {
 }
 
 /*======= Iconic Boxes v2  =======*/
+.iconic-boxes-v2 {
+  text-align: center;
+}
 .iconic-boxes-v2 .iconic-box .icon {
+  text-align: center;
   margin-bottom: 30px;
 }
 .iconic-boxes-v2 .iconic-box .icon img,
@@ -4003,7 +3990,7 @@ textarea {
   top: 0;
   width: 5px;
   height: 0%;
-  background-color: #ff0101;
+  background-color: #7cb342;
   transition: 0.3s linear;
   visibility: hidden;
   border-radius: 2.5px;
@@ -4013,9 +4000,9 @@ textarea {
   bottom: 0;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box .box-icon {
-  color: #ff0101;
+  color: #7cb342;
   font-size: 55px;
-  flex: 0 0 55px;
+  width: 25%;
   line-height: 0.5;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box .box-icon img,
@@ -4023,7 +4010,7 @@ textarea {
   transition: all 1s ease;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box .box-icon img {
-  max-width: 55px;
+  margin-top: 50%;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box .box-content {
   padding-left: 40px;
@@ -4033,7 +4020,7 @@ textarea {
   margin-bottom: 15px;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box .box-content .title a:hover {
-  color: #ff0101;
+  color: #7cb342;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box:hover::before, .fancy-icon-boxes-v2 .fancy-icon-box:hover::after {
   height: 100%;
@@ -4045,10 +4032,10 @@ textarea {
 }
 .fancy-icon-boxes-v2 .fancy-icon-box.color-2 .box-icon,
 .fancy-icon-boxes-v2 .fancy-icon-box.color-2 .title a:hover {
-  color: #dc64ff;
+  color: #7cb342;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box.color-2::before, .fancy-icon-boxes-v2 .fancy-icon-box.color-2::after {
-  background-color: #dc64ff;
+  background-color: #7cb342;
 }
 .fancy-icon-boxes-v2 .fancy-icon-box.color-3 .box-icon,
 .fancy-icon-boxes-v2 .fancy-icon-box.color-3 .title a:hover {
@@ -4172,56 +4159,16 @@ textarea {
 }
 
 /*======= Preview Gallery v4 =======*/
-.preview-galley-v4 {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  width: 600px;
-  height: 470px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .preview-galley-v4 img {
-  border-radius: 15px;
-  position: relative;
-  z-index: 1;
-}
-.preview-galley-v4 img.preview-image-2 {
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .preview-galley-v4 img.preview-image-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  min-width: 5rem;
+  max-width: 15rem;
   box-shadow: 0px 10px 30px 0px rgba(22, 22, 44, 0.18);
-}
-.preview-galley-v4 img.preview-image-4 {
-  position: absolute;
-  position: absolute;
-  right: 0;
-  bottom: 40px;
-  z-index: 1;
-  box-shadow: 0px 10px 30px 0px rgba(22, 22, 44, 0.18);
-}
-.preview-galley-v4::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 130%;
-  height: 180%;
-  transform: translate(-50%, -50%);
-  z-index: -2;
-  background-image: url(../img/preview-gallery/oval-gradient-2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
 }
 
 /*======= Preview Gallery v5 =======*/
@@ -4430,21 +4377,9 @@ textarea {
 /*======= Preview Image v3 =======*/
 .preview-image-v3 {
   position: relative;
-  z-index: 1;
-}
-.preview-image-v3::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 140%;
-  height: 120%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  background-image: url(../img/preview-gallery/oval-gradient-2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*======= Preview Image v4 =======*/
